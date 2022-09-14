@@ -49,6 +49,7 @@
               </div>
             </div>
           </div>
+          <!-- ----------------------------------- -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
               <button
@@ -80,6 +81,66 @@
                 reside inside a function, and a block scoped variable will not
                 be available outside the block even if the block is inside a
                 function.
+              </div>
+            </div>
+          </div>
+          <!-- ----------------------------------- -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Qus : How does work JavaScript event loop?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+            >
+              <div class="accordion-body">
+                It is <strong>The Event Loop</strong>
+                has one simple job — to monitor the Call Stack and the Callback
+                Queue. If the Call Stack is empty, the Event Loop will take the
+                first event from the queue and will push it to the Call Stack,
+                which effectively runs it.Such an iteration is called a tick in
+                the Event Loop. Each event is just a function callback.
+              </div>
+            </div>
+          </div>
+          <!-- ----------------------------------- -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Qus : How many ways YOu get undefine ?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+            >
+              <div class="accordion-body">
+                Ways to get Undefined: <br /><br />
+                1.A declared variable without assigning any value to it. <br />
+                2. statements that do not explicitly return anything. <br />
+                3.Lookups ofnon-existent properties in an object. <br />
+                4. Function parameters that have not passed. <br />
+                5. Anything that has been set to the value of undefined. <br />
+                6. Any expression in the form of void(expression) <br />
+                7. The value of the global variable undefined
               </div>
             </div>
           </div>
